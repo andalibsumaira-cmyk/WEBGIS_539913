@@ -30,4 +30,3 @@ https://andalibsumaira-cmyk.github.io/WEBGIS_539913/
 
 5. Two causes for a classmate's districts all being one colour: (a) population stored as text, so numeric comparisons fail and all districts fall into the same class; (b) all values are null, so all districts get the grey "no data" colour. Checking the attribute table (text vs blank) tells them apart.
 
-6. Opening via double-click uses file:// protocol, which browsers block from making fetch() requests for security. Live Server serves over http://127.0.0.1, where fetch works normally.
